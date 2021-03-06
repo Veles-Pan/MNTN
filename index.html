@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mountain</title>
+
+        <link rel="stylesheet" href="./pages/index.css">
+
+    </head>
+
+    <body class="root">
+
+        <header class="header">
+            <nav class="header__navigation">
+                <a class="header__logo" href="#">MNTN</a>
+                <div class="header__links">
+                    <a class="header__link" href="#">Equipment</a>
+                    <a class="header__link" href="#">About us</a>
+                    <a class="header__link" href="#">Blog</a>
+                </div>
+                <a class="header__account scroll-to" href="#">
+                    <img class="header__icon" src="./images/cart.svg" alt="иконта аккаунта">
+                    <p class="header__link">Account</p>
+                </a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <article class="intro" id="intro">
+                <div class="intro__description">
+                    <div class="intro__line"></div>
+                    <h1 class="intro__title">A Hiking guide</h1>
+                </div>
+                <p class="intro__text">Be&nbsp;prepared for the Mountains and beyond!</p>
+                <div class="intro__scroll scroll-to" id="to-card-1">
+                    <p class='intro__scroll-text'>scroll down</p>
+                    <img class="intro__scroll-icon" src="./images/arrow_downward_24px.svg" alt="вниз">
+                </div>
+            </article>
+
+            <article class="cards-area">
+                <div class="card" id="card-1">
+                    <div class="card__info">
+                        <div class="card__title-line">
+                            <p class="card__number">01</p>
+                            <div class="card__line"></div>
+                            <h2 class="card__title">get started</h2>
+                        </div>
+                        
+                        <p class="card__subtitle">What level of&nbsp;hiker are you?</p>
+                        <p class="card__text">Determining what level of&nbsp;hiker you are can be&nbsp;an&nbsp;important tool when planning future hikes. This hiking level guide will help you plan hikes according to&nbsp;different hike ratings set by&nbsp;various websites like All Trails and Modern Hiker. What type of&nbsp;hiker are you&nbsp;&mdash; novice, moderate, advanced moderate, expert, or&nbsp;expert backpacker?</p>
+                        <a class="card__link" href="#" target="_blank">read more &rarr;</a>
+                    </div>
+                   
+                    <img class="card__image" src="./images/photo1.jpg" alt="прогулка по горам">
+                </div>
+
+                <div class="card" id="card-2">
+                    <img class="card__image" src="./images/photo2.jpg" alt="вид на горы">
+
+                    <div class="card__info card__info_reflected">
+
+                        <div class="card__title-line">
+                            <p class="card__number">02</p>
+                            <div class="card__line"></div>
+                            <h2 class="card__title">Hiking Essentials</h2>
+                        </div>
+                        
+                        <p class="card__subtitle">Picking the right Hiking Gear!</p>
+                        <p class="card__text">The nice thing about beginning hiking is&nbsp;that you don&rsquo;t really need any special gear, you can probably get away with things you already have.
+                            Let&rsquo;s start with clothing. A&nbsp;typical mistake hiking beginners make is&nbsp;wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or&nbsp;wet.</p>
+                        <a class="card__link" href="#" target="_blank">read more &rarr;</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card" id="card-3">
+                    <div class="card__info">
+                        <div class="card__title-line">
+                            <p class="card__number">03</p>
+                            <div class="card__line"></div>
+                            <h2 class="card__title">where you go is the key</h2>
+                        </div>
+                        
+                        <p class="card__subtitle">Understand Your Map &amp;&nbsp;Timing</p>
+                        <p class="card__text">To&nbsp;start, print out the hiking guide and map. If&nbsp;it&rsquo;s raining, throw them in&nbsp;a&nbsp;Zip-Lock bag. Read over the guide, study the map, and have a&nbsp;good idea of&nbsp;what to&nbsp;expect. I&nbsp;like to&nbsp;know what my&nbsp;next landmark is&nbsp;as&nbsp;I&nbsp;hike. For example, I&rsquo;ll read the guide and know that say, in&nbsp;a&nbsp;mile, I&nbsp;make a&nbsp;right turn at&nbsp;the junction..</p>
+                        <a class="card__link" href="#" target="_blank">read more &rarr;</a>
+                    </div>
+                    
+                    <img class="card__image" src="./images/photo3.jpg" alt="компас">
+                </div>
+            </article>
+
+        </main>
+        
+
+        <div class="social">
+            <a class="social__follow">Follow us</a>
+            <a class="social__link" href="#" target="_blank"><img class="social__image social__image_instagram" src="./images/instagram.svg" alt="инстаграм"></a>
+            <a class="social__link" href="#" target="_blank"><img class="social__image social__image_twitter" src="./images/twitter.svg" alt="твиттер"></a>
+        </div>
+
+        <div class="scroll">
+            <div class="scroll__menu">
+                <p class="scroll__link scroll-to" id="to-intro">Start</p>
+                <p class="scroll__link scroll-to" id="to-card-1">1</p>
+                <p class="scroll__link scroll-to" id="to-card-2">2</p>
+                <p class="scroll__link scroll-to" id="to-card-3">3</p>
+            </div>
+            <div class="scroll__lines">
+                <div class="scroll__position"></div>
+                <div class="scroll__track"></div>
+            </div>
+        </div>
+
+        <script src="./scripts/scroll.js"></script>
+
+    </body>
+
+    </html>
