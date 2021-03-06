@@ -4,6 +4,7 @@
     font-weight: 900;
     font-size: 32px;
     font-family: Chronicle Display;
+    max-width: 110px;
 }
 
 .footer__logo:hover {
