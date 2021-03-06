@@ -5,3 +5,8 @@
     font-size: 32px;
     font-family: Chronicle Display;
 }
+
+.footer__logo:hover {
+    cursor: pointer;
+    opacity: .6;
+}
