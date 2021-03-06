@@ -1,0 +1,7 @@
+.scroll__menu {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 40px 0;
+    justify-items: end;
+    margin-right: 32px;
+}

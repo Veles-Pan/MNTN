@@ -1,0 +1,5 @@
+.header__links {
+    display: grid;
+    gap: 0 40px;
+    grid-template-columns: repeat(3, auto);
+}

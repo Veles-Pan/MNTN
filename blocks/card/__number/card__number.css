@@ -1,0 +1,11 @@
+.card__number {
+    margin: 0;
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 1;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position: absolute;
+    top: -100px;
+    left: -150px;
+}

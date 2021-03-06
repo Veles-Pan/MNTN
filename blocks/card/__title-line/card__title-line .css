@@ -1,0 +1,7 @@
+.card__title-line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 27px;
+    position: relative;
+}

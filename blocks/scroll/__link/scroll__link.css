@@ -1,0 +1,13 @@
+.scroll__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.scroll__link:hover {
+    cursor: pointer;
+    opacity: .6;
+}

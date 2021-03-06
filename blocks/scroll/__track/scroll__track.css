@@ -1,0 +1,7 @@
+.scroll__track {
+    width: 3px;
+    height: 240px;
+    background-color: #fff;
+    opacity: 0.5;
+    z-index: 1;
+}

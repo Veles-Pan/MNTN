@@ -1,0 +1,11 @@
+.scroll__position {
+    width: 3px;
+    height: 60px;
+    background-color: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 2;
+    transition: transform 0.2s linear 0s;
+}

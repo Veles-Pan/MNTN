@@ -1,0 +1,7 @@
+.header__account {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}

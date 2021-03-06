@@ -1,0 +1,13 @@
+.social__follow {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #fff;
+    display: block;
+    text-align: end;
+    width: 67px;
+}
+
+.social__follow:hover {
+    cursor: pointer;
+    opacity: .6;
+}

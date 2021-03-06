@@ -1,0 +1,9 @@
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 114px;
+    position: relative;
+}

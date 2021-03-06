@@ -1,0 +1,29 @@
+@font-face {
+    src: url(../fonts/chronicledisplayroman.otf);
+    font-family: 'Chronicle Display';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/chronicledisplayblack.otf);
+    font-family: 'Chronicle Display';
+    font-weight: 900;
+}
+
+@font-face {
+    src: url(../fonts/gilroy-regular.ttf);
+    font-family: 'Gilroy';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/gilroy-bold.ttf);
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(../fonts/gilroy-medium.ttf);
+    font-family: 'Gilroy';
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.scroll {
+    display: flex;
+    position: fixed;
+    top: 327px;
+    right: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s linear 0s;
+}

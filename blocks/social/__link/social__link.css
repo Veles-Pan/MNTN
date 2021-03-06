@@ -1,0 +1,9 @@
+.social__link {
+    display: flex;
+    justify-content: center;
+}
+
+.social__link:hover {
+    cursor: pointer;
+    opacity: .6;
+}
