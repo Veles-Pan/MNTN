@@ -5,3 +5,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.header__account:hover {
+    cursor: pointer;
+    opacity: .6;
+}
