@@ -7,3 +7,17 @@
     margin-right: 114px;
     position: relative;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__info {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .card__info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

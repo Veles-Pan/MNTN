@@ -11,3 +11,9 @@
     cursor: pointer;
     opacity: .6;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__link  {
+        font-size: 15px;
+    }
+}

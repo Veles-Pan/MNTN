@@ -14,10 +14,10 @@
 
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__description/intro__description.css');
-
 @import url('../blocks/intro/__line/intro__line.css');
 @import url('../blocks/intro/__scroll-text/intro__scroll-text.css');
 @import url('../blocks/intro/__scroll/intro__scroll.css');
+@import url('../blocks/intro/__scroll-icon/intro__scroll-icon.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__title/intro__title.css');
 

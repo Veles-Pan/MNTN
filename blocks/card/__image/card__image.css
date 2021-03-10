@@ -3,3 +3,16 @@
     max-height: 720px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__image {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .card__image {
+        max-width: 300px;
+        max-height: 381px;
+    }
+}

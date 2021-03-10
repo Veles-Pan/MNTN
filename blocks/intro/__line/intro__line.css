@@ -4,3 +4,11 @@
     background-color: #FBD784;
     margin-right: 32px;
 }
+
+@media screen and (max-width: 950px) {
+    .intro__line  {
+        width: 64x;
+        height: 1px;
+        margin-right: 24px;
+    }
+}

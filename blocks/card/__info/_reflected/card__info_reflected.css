@@ -2,3 +2,15 @@
     margin-right: 0;
     margin-left: 264px;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__info {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .card__info {
+        margin-left: 20px;
+    }
+}

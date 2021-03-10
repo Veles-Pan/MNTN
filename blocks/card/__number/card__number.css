@@ -9,3 +9,17 @@
     top: -100px;
     left: -150px;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__number {
+        font-size: 180px;
+        left: -100px;
+        top: -80px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .card__number {
+        left: -10px;
+    }
+}

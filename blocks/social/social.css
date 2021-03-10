@@ -10,3 +10,16 @@
     align-items: center;
     transition: transform 0.3s linear 0s;
 }
+
+@media screen and (max-width: 1500px) {
+    .social  {
+        left: calc(100vw - 96vw);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .social {
+        display: none;
+    }
+}
+

@@ -6,3 +6,9 @@
     color: #FFFFFF;
     margin-bottom: 27px;
 }
+
+@media screen and (max-width: 1500px) {
+    .card__text  {
+        font-size: 15px;
+    }
+}

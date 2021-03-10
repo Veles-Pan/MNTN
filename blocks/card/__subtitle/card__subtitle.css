@@ -5,4 +5,11 @@
     line-height: 1.2;
     color: #FFFFFF;
     margin-bottom: 27px;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 1500px) {
+    .card__subtitle  {
+        font-size: 52px;
+    }
 }

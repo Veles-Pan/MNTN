@@ -5,3 +5,9 @@
     justify-items: end;
     margin-right: 32px;
 }
+
+@media screen and (max-width: 1130px) {
+    .scroll__menu {
+        margin-right: 12px;
+    }
+}

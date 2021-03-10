@@ -8,3 +8,9 @@
     justify-content: center;
     transition: transform 0.3s linear 0s;
 }
+
+@media screen and (max-width: 1500px) {
+    .scroll  {
+        right: calc(100vw - 96vw);
+    }
+}

@@ -5,3 +5,10 @@
     justify-content: space-between;
     margin-bottom: 120px;
 }
+
+@media screen and (max-width: 1312px) {
+    .footer {
+        width: 86%;
+        margin-bottom: 50px;
+    }
+}

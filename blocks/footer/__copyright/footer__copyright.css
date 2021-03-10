@@ -6,3 +6,11 @@
     opacity: 0.5;
     margin-top: 122px;
 }
+
+@media screen and (max-width: 1312px) {
+    .footer__copyright {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-top: 100px;
+    }
+}

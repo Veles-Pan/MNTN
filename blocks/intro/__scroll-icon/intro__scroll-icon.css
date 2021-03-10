@@ -1,0 +1,11 @@
+.intro__scroll-icon {
+    width: 16px;
+    height: 24px;
+}
+
+@media screen and (max-width: 950px) {
+    .intro__scroll-icon {
+        width: 12px;
+        height: 20px;
+    }
+}
